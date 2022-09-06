@@ -14,7 +14,7 @@ const PostList = ({posts,deleteAction}) => {
           </tr>
         </thead>
         <tbody>
-          {posts.map((post) => {
+          {/*posts &&*/ posts.map((post) => {
               return (
       <tr key={post.id}>
           <th scope="row">{post.id}</th>
